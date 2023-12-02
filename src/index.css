@@ -1,5 +1,9 @@
 body {
-  background: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+  background: linear-gradient(
+    181deg,
+    rgb(2, 0, 97) 15%,
+    rgb(97, 149, 219) 158.5%
+  );
   font-family: "Lato", sans-serif;
 }
 
@@ -17,15 +21,20 @@ a {
 }
 
 .search-form-input {
-  background-color: #ddeedf;
+  background-color: #1e549f;
   border: none;
   border-radius: 6px;
   padding: 15px 20px;
   width: 80%;
   font-size: 16px;
 }
+
+::placeholder {
+  color: white;
+}
 .search-form-button {
-  background-color: #99b27f;
+  background-color: #1e549f;
+  color: white;
   border: none;
   border-radius: 6px;
   padding: 15px 20px;
