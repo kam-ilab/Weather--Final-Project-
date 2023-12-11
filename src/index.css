@@ -119,6 +119,7 @@ main {
   margin-top: 10px;
   display: flex;
   justify-content: center;
+  color: blueviolet;
 }
 
 .weather-forecast-temperature {
